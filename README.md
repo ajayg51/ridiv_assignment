@@ -1,7 +1,7 @@
 # RiDiv Assignment - Build a weather app
 
 ## Download apk
-<a href="https://github.com/ajayg51/ridiv_assignment/blob/main/apk/app-release.apk">Click here to download apk file</a>
+<a href="https://github.com/ajayg51/ridiv_assignment/raw/main/apk/app-release.apk">Click here to download apk file</a>
 
 
 ## Problem statement 
