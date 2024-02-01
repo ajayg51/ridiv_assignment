@@ -12,7 +12,7 @@
 
 ## Demo
 
-https://github.com/ajayg51/ridiv_assignment/assets/60037249/4f293224-2cc1-47ab-8814-2f6fe333481e
+https://github.com/ajayg51/ridiv_assignment/assets/60037249/0b0aa7ff-ac5c-42ca-b899-21fc6583cfc0
 
 
 
