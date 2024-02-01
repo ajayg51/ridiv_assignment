@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:ridiv_assignment/screens/splash_screen.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -32,12 +31,6 @@ class MyApp extends StatelessWidget {
             ),
           )),
       home: SplashScreen(),
-      // home: HomeScreen(
-      //   isLocationPermissionEnabled: true,
-      //   place: Placemark(),
-      //   lat: 0,
-      //   longtd: 0,
-      // ),
     );
   }
 }
