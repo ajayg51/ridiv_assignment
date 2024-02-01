@@ -5,14 +5,8 @@ import 'package:ridiv_assignment/models/place_weather_response.dart';
 import 'package:ridiv_assignment/services/city_search_service.dart';
 
 void main() {
-  late CitySearchService citySearchService;
-  late final double lat, longtd;
-
-  setUp(() {
-    citySearchService = CitySearchService();
-    lat = -33.8688;
-    longtd = 151.2093;
-  });
+  final citySearchService = CitySearchService();
+  
 
   group('City search service : ', () {
     group('Get location weather basis latitude and longitude : ', () {
@@ -20,8 +14,8 @@ void main() {
 
       when(
         () => citySearchService.getPlaceWeatherBasisLatAndLong(
-          lat: lat,
-          lon: longtd,
+          lat: -33.8688,
+          lon: 151.2093,
         ),
       ).thenAnswer(
         (invocation) async {
@@ -31,8 +25,8 @@ void main() {
 
       // act, actual call
       final data = citySearchService.getPlaceWeatherBasisLatAndLong(
-        lat: lat,
-        lon: longtd,
+        lat: -33.8688,
+        lon: 151.2093,
       );
 
       // assert, result

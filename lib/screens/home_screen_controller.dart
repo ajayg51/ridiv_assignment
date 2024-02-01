@@ -70,7 +70,8 @@ class HomeScreenController extends GetxController {
       isShowSearchedPlaceTile.value = false;
       closeGetDialog();
       showGetDialog(
-        title: "Oh ho! something went wrong",
+        title: "Failure!",
+        info: "Oh ho! something went wrong",
         isShowProgress: false,
       );
       closeGetDialog(milliseconds: 1000);
@@ -99,7 +100,8 @@ class HomeScreenController extends GetxController {
       }
       closeGetDialog();
       showGetDialog(
-        title: "Api call status :  SUCCESS",
+        title: "Success!",
+        info: "Api call status :  SUCCESS",
         isShowProgress: false,
       );
       await Future.delayed(const Duration(milliseconds: 1000));
@@ -110,7 +112,8 @@ class HomeScreenController extends GetxController {
       isShowSearchedPlaceTile.value = false;
       closeGetDialog();
       showGetDialog(
-        title: "Oh ho! something went wrong",
+        title: "Failure!",
+        info: "Oh ho! something went wrong",
         isShowProgress: false,
       );
       closeGetDialog(milliseconds: 1000);
@@ -119,14 +122,15 @@ class HomeScreenController extends GetxController {
 
   void showGetDialog({
     required String title,
+    String? info,
     bool? isShowProgress,
   }) {
     Get.defaultDialog(
-      title: isShowProgress == false ? "Congratulations!" : title,
+      title: title,
       titleStyle: Get.textTheme.bodyLarge?.copyWith(
         color: Colors.white,
       ),
-      middleText: isShowProgress == false ? title : "",
+      middleText: isShowProgress == false ? info ?? "" : "",
       middleTextStyle: Get.textTheme.bodyLarge?.copyWith(
         color: Colors.white,
         fontSize: 16,

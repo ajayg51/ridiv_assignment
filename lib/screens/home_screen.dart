@@ -139,7 +139,7 @@ class HomeScreen extends StatelessWidget {
               12.horizontalSpace,
               Expanded(
                 child: Text(
-                  "Current weather update",
+                  "Current weather details",
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: Get.textTheme.bodyLarge?.copyWith(
