@@ -1,16 +1,33 @@
-# ridiv_assignment
+# RiDiv Assignment - Build a weather app
 
-A new Flutter project.
+## Problem statement 
+![Screenshot 2024-02-01 at 8 39 33 PM](https://github.com/ajayg51/ridiv_assignment/assets/60037249/96de6c5b-d259-40b0-a5df-3b61e68bd79e)
 
-## Getting Started
+## Tech Stack
+```
+    * Dart
+    * Flutter
 
-This project is a starting point for a Flutter application.
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/ajayg51/ridiv_assignment/assets/60037249/4f293224-2cc1-47ab-8814-2f6fe333481e
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Features
+```
+    * Auto detect location
+    * Auto quits app if location permission is denied
+    * Fetches device location weather info
+    * Search for any city in [India, Nepal, Bhutan, Myanmar, Sri Lanka]
+    
+```
+
+## Api Source
+
+```
+    * OpenWeatherMap
+```
+
